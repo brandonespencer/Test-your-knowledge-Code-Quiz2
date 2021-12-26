@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- This is the first step in making the document responsive by scaling the items-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- brandon spencer Code Quiz -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- This is the style links -->
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootsrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Title of the page-->
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <!-- Link to Highscores -->
+    <a href="Highscores.html" View High Scores ></a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+        <!-- Div for timer -->
+        <div id="currentTime"></div>
+        <!-- Div for quiz content -->
+        <div id="questionsDiv">
+            <h1>Test your Coding Skills</h1>
+            <p>Test your Coding knowledge by answering the following questions within the time limit. Be aware any incorrect
+                answer
+                will reduce your time by ten seconds! Good luck!! </p>
+            <ul class ="choices-list"></ul>
+            <!-- Buttons -->
+            <button id="startTime">Start Quiz</button>
+        </div>
+
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
